@@ -14,7 +14,7 @@
 ## Instruction
 ### Configure Variables - Terraform
 * rename install.sh.example > install.sh
-* change variables of install.sh for your project - <AWS_ACCESS_KEY>, <AWS_SECRET_KEY>, <REGION>, <SHOAPE_OF_OUTPUT>
+* change variables of install.sh for your project - <AWS_ACCESS_KEY>, <AWS_SECRET_KEY>, <REGION>, <SHAPE_OF_OUTPUT>
 
 ### Instance Initiate - Terraform
 ```
