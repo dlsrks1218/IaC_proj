@@ -16,10 +16,12 @@ Wordpress on AWS with Terraform, Ansible, Docker
 * install.sh 내 <AWS_ACCESS_KEY>, <AWS_SECRET_KEY>, <REGION>, <SHOAPE_OF_OUTPUT>을 프로젝트에 맞게 수정
 
 ### Instance Initiate - Terraform
-* $ cd /terraform
-* $ terraform init
-* $ terraform plan
-* $ terraform apply -auto-approve
+```
+cd /terraform
+terraform init
+terraform plan
+terraform apply -auto-approve
+```
 
 ### Initiated Instance State
 * Lightsail Instance(Ubuntu 18.04)
@@ -27,4 +29,6 @@ Wordpress on AWS with Terraform, Ansible, Docker
 * Docker, Docker Compose Installed
 
 ### Instance Destroy - Terraform
-* $ terraform destroy
+```
+terraform destroy
+```
