@@ -8,8 +8,14 @@ Wordpress on AWS with Terraform, Ansible(Infrastructure as Code)
 
 ### Instance Initiate - Terraform
 * cd /terraform
-* terraform init
-* terraform plan
-* terraform apply
+* $ terraform init
+* $ terraform plan
+* $ terraform apply -auto-approve
+
+### Initiated Instance State
+* Lightsail Instance(Ubuntu 18.04)
+* Static Ip Attached
+* Docker, Docker Compose Installed
 
 ### Instance Destroy - Terraform
+* $ terraform destroy
