@@ -3,7 +3,7 @@ resource "aws_lightsail_static_ip" "devops" {
 }
 
 resource "aws_lightsail_static_ip_attachment" "devops" {
-  static_ip_name = "${aws_lightsail_static_ip.devops.name}"
+  static_ip_name ="${aws_lightsail_static_ip.devops.name}"
   instance_name = "${aws_lightsail_instance.main.name}"
   connection {
     timeout = "5m"

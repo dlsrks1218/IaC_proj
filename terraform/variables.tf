@@ -1,10 +1,11 @@
 variable "access_key" {}
-
 variable "secret_key" {}
+variable "public_key_path" {}
+variable "private_key_path" {}
 
 variable "staticip" {
   description = "Lightsail Static IP"
-  default = ""
+  default = "lsstaticip"
 }
 
 variable "region" {
@@ -31,7 +32,3 @@ variable "bundle_id" {
   description = "instance type"
   default = "nano_2_0"
 }
-
-variable "public_key_path" {}
-
-variable "private_key_path" {}
