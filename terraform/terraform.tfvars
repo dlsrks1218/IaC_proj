@@ -1,6 +1,0 @@
-access_key = "AKIA2OH3JZ7RFUK5Q6XL"
-secret_key = "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"
-staticip = "lsstaticip"
-prefix = "devops"
-public_key_path = "~/.ssh/terraform.pub"
-private_key_path = "~/.ssh/terraform"
