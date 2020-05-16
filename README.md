@@ -1,5 +1,14 @@
 # IaC_proj
-Wordpress on AWS with Terraform, Ansible(Infrastructure as Code)
+*Infrastructure as Code Project*
+Wordpress on AWS with Terraform, Ansible, Docker
+
+## Dev Stack
+* LEMP stack(Linux + NginX + MariaDB + PHP)
+* AWS Ligthsail
+* Wordpress
+* Terraform
+* Ansible
+* Docker
 
 ## Instruction
 ### Configure Terraform Variables
