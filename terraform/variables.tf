@@ -1,12 +1,6 @@
-variable "access_key" {
-  description = "AWS access key"
-  default = ""
-}
+variable "access_key" {}
 
-variable "secret_key" {
-  description = "AWS secret key"
-  default = ""
-}
+variable "secret_key" {}
 
 variable "staticip" {
   description = "Lightsail Static IP"
@@ -38,7 +32,6 @@ variable "bundle_id" {
   default = "nano_2_0"
 }
 
-variable "public_key_path" {
-  description = "Path to the private portion of the SSH key specified"
-  default = "~/.ssh/terraform.pub"
-}
+variable "public_key_path" {}
+
+variable "private_key_path" {}
