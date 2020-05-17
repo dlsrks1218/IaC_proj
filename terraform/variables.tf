@@ -30,5 +30,5 @@ variable "blueprint_id" {
 
 variable "bundle_id" {
   description = "instance type"
-  default = "nano_2_0"
+  default = "micro_2_0"
 }
