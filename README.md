@@ -33,3 +33,11 @@ terraform apply -auto-approve
 ```
 terraform destroy
 ```
+
+### Wordpress Setting
+```
+cd wordpress
+docker-compose up -d
+```
+* http://localhost/ will redirect to /https://localhost/
+* SSL setting - letsencrypt

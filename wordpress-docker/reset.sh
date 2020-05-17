@@ -22,3 +22,4 @@ echo "# "
 # to wait through that on every single iteration, especially for development purposes.
 #
 rm -rf data/ logs/ wordpress/
+rm -rf ssl_certs
