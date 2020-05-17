@@ -39,5 +39,5 @@ terraform destroy
 cd wordpress
 docker-compose up -d
 ```
-* http://localhost/ will redirect to /https://localhost/
+* http://localhost/ will redirect to https://localhost/
 * SSL setting - letsencrypt
