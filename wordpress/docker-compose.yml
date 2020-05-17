@@ -34,5 +34,3 @@ wordpress:
     links:
         - mysql
     restart: always
-
-
