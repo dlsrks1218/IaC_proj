@@ -4,3 +4,6 @@ terraform.tfstate
 terraform.tfvars
 install.sh
 auto_push_msg_branch.sh
+/wordpress-nginx-docker/data
+/wordpress-nginx-docker/logs
+/wordpress-nginx-docker/wordpress
