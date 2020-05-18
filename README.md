@@ -36,8 +36,13 @@ terraform destroy
 
 ### Wordpress Setting
 ```
-cd wordpress
+cd wordpress-nginx-docker
 docker-compose up -d
 ```
-* http://localhost/ will redirect to https://localhost/
-* SSL setting - letsencrypt
+* http://<YOUR_SERVER_IP>/
+
+### Wordpress Reset
+```
+#It will remove all docker containers about wordpress
+./reset.sh
+```
