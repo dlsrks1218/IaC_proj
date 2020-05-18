@@ -35,8 +35,13 @@ terraform destroy
 ```
 
 ### Wordpress Setting
+
 ```
 cd wordpress-nginx-docker
+```
+* rename docker-compose.yml.example > docker-compose.yml
+* change variables of docker-compose.yml for your project - MYSQL_ROOT_PASSWORD=<password>, WORDPRESS_DB_PASSWORD=<password>
+```
 docker-compose up -d
 ```
 * http://<YOUR_SERVER_IP>/
