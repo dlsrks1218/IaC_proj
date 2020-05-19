@@ -47,6 +47,17 @@ docker-compose up -d
 ```
 * http://<YOUR_SERVER_IP>/
 
+### Domain Connect
+* If you already have domain, follow the instructions below.
+```
+sudo vi wordpress-nginx-docker/wordpress/wp-config.php
+```
+* Add 2 lines with your variables.
+```
+define('WP_HOME','http://example.com');
+define('WP_SITEURL','http://example.com');
+```
+
 ### Wordpress Reset
 ```
 #It will remove all docker containers about wordpress
