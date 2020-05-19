@@ -15,7 +15,8 @@
 ### Configure Variables - Terraform
 * rename install.sh.example > install.sh
 * change variables of install.sh for your project - <AWS_ACCESS_KEY>, <AWS_SECRET_KEY>, <REGION>, <SHAPE_OF_OUTPUT>
-
+* rename terraform.tfvars.example > terraform.tfvars
+* change variables of terraform.tfvars for you project - 
 ### Instance Initiate - Terraform
 ```
 cd /terraform
@@ -35,8 +36,13 @@ terraform destroy
 ```
 
 ### Wordpress Setting
+
 ```
 cd wordpress-nginx-docker
+```
+* rename docker-compose.yml.example > docker-compose.yml
+* change variables of docker-compose.yml for your project - MYSQL_ROOT_PASSWORD=<password>, WORDPRESS_DB_PASSWORD=<password>
+```
 docker-compose up -d
 ```
 * http://<YOUR_SERVER_IP>/

@@ -18,6 +18,10 @@ EOF
 
 aws lightsail put-instance-public-ports --instance-name=devops-main --port-info fromPort=40022,toPort=40022,protocol=tcp fromPort=443,toPort=443,protocol=tcp fromPort=80,toPort=80,protocol=tcp
 
+aws lightsail create-domain \
+    --region us-east-1 \
+    --domain-name <example.com>
+
 #aws lightsail close-instance-public-ports --instance-name=devops-main --port-info fromPort=22,toPort=22,protocol=tcp
 
 # Install docker
