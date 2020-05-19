@@ -8,3 +8,4 @@ auto_push_msg_branch.sh
 /wordpress-nginx-docker/logs
 /wordpress-nginx-docker/wordpress
 docker-compose.yml
+~
